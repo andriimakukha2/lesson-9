@@ -163,8 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
-    line-height: 0.1;
+    gap: 20px;
 }
 
 .project__title {
@@ -172,6 +171,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 21px;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.project__text {
+    margin: 0;
 }
 
 
@@ -188,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .work__content {
     max-width: 540px;
-    margin: 0 auto;
+    margin-left: 300px;
 }
 
 .work__title {
@@ -199,13 +203,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .work__desc {
     width: 540px;
-    margin-left: 300px;
     text-align: center;
 }
 
 .video__img-button {
     position: relative;
-    padding-top: 100px;
 }
 
 .video__button {
